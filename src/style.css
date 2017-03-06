@@ -254,6 +254,10 @@ span.location {
 	margin: 0;
 }
 
+.used-methods {
+	margin: 1em 0 1em 1em;
+}
+
 .progress {
 	background-color: #EEEEEE;
 	outline: 1px dashed #00ADB5;
