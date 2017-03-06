@@ -57,8 +57,8 @@ ul {
 }
 
 *:focus {
-	outline-color: #00ADB5;
-	padding: 0 0.5em;
+	outline-color: #00ADB5 !important;
+	outline-offset: 3px !important;
 }
 
 /* navbar */
@@ -237,8 +237,12 @@ footer {
 	vertical-align: top;
 }
 
-.summary {
+button.summary {
+	background: none;
+	border: none;
 	font-style: italic;
+	padding: 0;
+	text-align: left;
 }
 
 .summary:after {
@@ -309,7 +313,7 @@ span.location {
 
 /* specific print styles */
 @media print {
-	footer, .navbar { display: none !important; }
+	.navbar { display: none !important; }
 
 	h3:before { border-top: 3px solid #222831; content: ''; display: block; width: 100%; }
 
