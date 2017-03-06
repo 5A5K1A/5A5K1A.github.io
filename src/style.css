@@ -103,6 +103,10 @@ nav.navbar {
 	margin: 2em 0;
 }
 
+.navbar-collapse[aria-expanded="true"] .nav-item:last-of-type {
+	padding-bottom: 4em;
+}
+
 .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
