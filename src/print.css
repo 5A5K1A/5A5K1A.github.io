@@ -1,0 +1,48 @@
+.navbar, footer {
+	display: none !important;
+}
+
+.container, .container-fluid {
+	display: inline;
+}
+
+.anchor#werkervaring {
+	page-break-before: always;
+}
+
+.list-item, .aside-row {
+	page-break-inside: avoid;
+}
+
+h3:before {
+	border-top: 3px solid #222831;
+	content: '';
+	display: block;
+	width: 100%;
+}
+
+div.collapse {
+	display: block;
+}
+
+.summary:after {
+	content: '';
+}
+
+.skill-list li {
+	display: inline-block;
+	margin: 1em 1em 0 0;
+	width: 45%;
+}
+
+.progress {
+	height: 0.8em;
+}
+
+.progress-label {
+	margin: -3em 0 0 -1em; position: absolute;
+}
+
+.progress-bar {
+	border-top: 0.5em solid #00ADB5;
+}
