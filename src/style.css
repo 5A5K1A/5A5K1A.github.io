@@ -241,7 +241,7 @@ footer {
 	font-style: italic;
 }
 
-.summary[aria-expanded="false"]:after {
+.summary:after {
 	content: ' [lees meer...]';
 	display: inline-block;
 	padding-left: 0.5em;
@@ -310,7 +310,12 @@ span.location {
 /* specific print styles */
 @media print {
 	footer, .navbar { display: none !important; }
+
 	h3:before { border-top: 3px solid #222831; content: ''; display: block; width: 100%; }
+
+	div.collapse { display: block; }
+	.summary:after { content: ''; }
+
 	.skill-list li { display: inline-block; margin: 1em 1em 0 0; width: 45%; }
 	.skill-list .progress { height: 0.8em; }
 	.skill-list .progress-label { margin: -3em 0 0 -1em; position: absolute; }
