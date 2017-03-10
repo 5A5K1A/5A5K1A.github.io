@@ -5,9 +5,14 @@ jQuery(document).ready(function($) {
 		}
 	});
 
-	var $root = $('html, body');
-	$('a[href*=#]').on('click', function(event){
-		event.preventDefault();
+	var $root       = $('html, body');
+
+	$('a[href*=#]').on('click', function(e){
+		e.preventDefault();
+
+		$('li.nav-item').removeClass('active');
+		$(this).parent('li.nav-item').addClass('active');
+
 		$root.animate({
 			scrollTop: $(this.hash).offset().top
 		}, 750);
