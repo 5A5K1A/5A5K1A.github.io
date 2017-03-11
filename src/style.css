@@ -81,8 +81,14 @@ nav.navbar {
     transition-duration: 0.1s;
 }
 
+button.navbar-toggle {
+	font-size: 0.8em;
+	line-height: 1em;
+}
+
 .navbar-collapse[aria-expanded="true"] {
 	background-color: #00ADB5;
+	box-shadow: none;
     transition-duration: 0.1s;
     animation-duration: 0.4s;
     animation-fill-mode: forwards;
