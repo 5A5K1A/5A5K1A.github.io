@@ -32,7 +32,7 @@ jQuery(document).ready(function($) {
 	}
 
 	console.log('%cHej welkom!', 'font-size: 2.5em; color: #00ADB5;');
-	console.log("%cWat tof dat je ook mijn code bekijkt :)\nAls je graag de volledige repo wilt zien, check dan even mijn GitHub.\nhttps://github.com/5A5K1A\n\nPS: Als je tips of verbeteringen voor deze pagina weet, graag!\nSchiet ze maar in via https://github.com/5A5K1A/5A5K1A.github.io/issues\n#altijdleukomteleren", 'font-size: 1.1em; color: #393E46; line-height: 1.8em;');
+	console.log("%cWat tof dat je ook mijn code bekijkt :)\nAls je graag de volledige repo wilt zien, check dan even mijn GitHub.\nhttps://github.com/5A5K1A\n\nPS: Als je tips of verbeteringen voor deze pagina weet, graag!\nSchiet ze maar in via https://github.com/5A5K1A/5A5K1A.github.io/issues\n#altijdleukomteleren", 'font-size: 1.1em; color: #393E46; line-height: 1.8;');
 
 });
 
