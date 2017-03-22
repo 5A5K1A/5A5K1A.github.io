@@ -331,6 +331,8 @@ span.location {
 	.anchor#werkervaring { page-break-before: always; }
 	.list-item, .aside-row { page-break-inside: avoid; }
 
+	header img { display: none; }
+
 	h3:before { border-top: 3px solid #222831; content: ''; display: block; width: 100%; }
 
 	div.collapse { display: block; }

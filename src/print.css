@@ -14,6 +14,10 @@
 	page-break-inside: avoid;
 }
 
+header img {
+	display: none;
+}
+
 h3:before {
 	border-top: 3px solid #222831;
 	content: '';
