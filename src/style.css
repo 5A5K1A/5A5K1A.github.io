@@ -312,6 +312,10 @@ span.location {
   width: 1.2em;
 }
 
+body .text-muted {
+    color: #686868;
+}
+
 @media screen and (min-width: 768px) {
 	.timeperiod {
 		display: inline-block;
