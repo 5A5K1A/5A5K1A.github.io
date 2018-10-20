@@ -142,7 +142,7 @@ nav.navbar li.nav-item a {
 .navbar-default .nav-item.active .nav-link:focus,
 .navbar-default .nav-item.active .nav-link:hover {
 	background-color: transparent;
-	color: #393E46;
+	color: #EAEAEA;
 }
 
 .navbar-default .nav-link::before {
