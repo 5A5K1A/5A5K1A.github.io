@@ -138,6 +138,8 @@ nav.navbar li.nav-item a {
 
 .navbar-default .nav-link:hover,
 .navbar-default .nav-link:focus,
+.navbar-default .navbar-nav > .nav-item > .nav-link:focus,
+.navbar-default .navbar-nav > .nav-item > .nav-link:hover,
 .navbar-default .nav-item.active .nav-link,
 .navbar-default .nav-item.active .nav-link:focus,
 .navbar-default .nav-item.active .nav-link:hover {
