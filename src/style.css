@@ -13,24 +13,24 @@ body {
 /* main semantics */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-	color: #00ADB5;
+	color: #007177;
 }
 
 a {
 	border-bottom: none;
-	color: #00ADB5;
+	color: #007177;
     display: inline-block;
     position: relative;
 }
 
 a:hover,
 a:focus {
-	color: #00ADB5;
+	color: #007177;
 	text-decoration: none;
 }
 
 a::before {
-	background: #00ADB5;
+	background: #007177;
 	bottom: 0;
 	content: '';
 	height: 1px;
@@ -58,13 +58,13 @@ ul {
 }
 
 *:focus {
-	outline-color: #00ADB5 !important;
+	outline-color: #007177 !important;
 	outline-offset: 3px !important;
 }
 
 /* navbar */
 nav.navbar {
-	background-color: #00ADB5;
+	background-color: #007177;
 	border: none;
 	font-size: 1.2em;
 	height: 3em;
@@ -90,7 +90,7 @@ button.navbar-toggle {
 .navbar-collapse[aria-expanded="true"] {
     animation-duration: 0.4s;
     animation-fill-mode: forwards;
-	background-color: #00ADB5;
+	background-color: #007177;
 	box-shadow: none;
     min-height: 100vh;
     transition-duration: 0.1s;
@@ -112,7 +112,7 @@ button.navbar-toggle {
 .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-	background-color: #00ADB5;
+	background-color: #007177;
 	border: 0;
 }
 
@@ -222,7 +222,7 @@ main {
 
 /* footer */
 footer {
-	background-color: #00ADB5;
+	background-color: #007177;
     bottom: 0;
 	color: #EAEAEA;
     height: 4em;
@@ -292,13 +292,13 @@ span.location {
 	border-radius: 0;
 	box-shadow: none;
 	height: 2em;
-	outline: 1px dashed #00ADB5;
+	outline: 1px dashed #007177;
 	padding: 0.15em;
 	width: auto;
 }
 
 .progress-bar {
-	background-color: #00ADB5;
+	background-color: #007177;
 	box-shadow: none;
 	line-height: 2;
 	padding-left: 1em;
@@ -341,6 +341,6 @@ span.location {
 	.skill-list li { display: inline-block; margin: 1em 1em 0 0; width: 45%; }
 	.progress { height: 0.8em; }
 	.progress-label { margin: -3em 0 0 -1em; position: absolute; }
-	.progress-bar { border-top: 0.5em solid #00ADB5; }
+	.progress-bar { border-top: 0.5em solid #007177; }
 }
 
